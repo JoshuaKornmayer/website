@@ -1,0 +1,205 @@
+	
+
+
+/*NAV BAR*/
+nav ul {
+	background-color: black;
+	overflow: hidden;
+	padding: 30px;
+
+}
+
+nav li {
+	display: inline;
+	font-weight: normal;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	margin-right: 40px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: blue;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+nav li a:hover {
+	text-decoration: underline;
+	color: black;
+	background-color: lightgray;
+}
+
+/*NAV BAR*/
+
+
+
+
+/*ALL BUTTONS IN GENERAL*/ 
+button {
+	border:2px solid black;
+	border-radius: 20px;
+	padding: 5px 10px;
+	display: block;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+
+button:hover {
+	background-color: black;
+	color: white;
+}
+
+/*ALL BUTTONS IN GENERAL*/ 
+
+
+/*CONTACT PAGE*/
+/*CONTACT PAGE BUTTONS */ 
+
+.testbuttons {
+	display: inline-flex;
+}
+
+.redbutton {
+	border: 2px solid red;
+	
+}
+
+.redbutton:hover {
+	background-color: red;
+}
+
+.bluebutton {
+	border: 2px solid blue;
+
+}
+
+.bluebutton:hover {
+	background-color: blue;
+}
+/*CONTACT PAGE BUTTONS */ 
+
+form input{
+	display: inline;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+form select{
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.inline{
+	display: inline;
+}
+
+form label{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*CONTACT PAGE*/
+
+
+
+
+
+/*ON AIR PAGE */ 
+
+.yellowbutton {
+	border: 2px solid yellow;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
+
+.yellowbutton:hover {
+	background-color: yellow;
+	color: black;
+	
+} 
+
+.listen {
+	display: inline;
+
+}
+
+.wasu{
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+.wasu:hover {
+	background-color: yellow
+}
+/*ON AIR PAGE */
+		
+
+/*HEADERS*/
+		h1 {
+			color: blue;
+			line-height: .2;
+		}
+		h2 {
+			color: blue;
+			font-size: 30px;
+			line-height: .7;
+		}
+		h3 {
+			line-height: .7;
+		}
+
+		.firstpageheader{
+			margin-top: 75px;
+		}
+
+/*HEADERS*/
+
+
+/* RESUME PAGE*/	
+/* use commas to separate multiple selectors and apply to all */
+		table, th, td {
+			border:1px solid black; 
+		}
+		table {
+			background-color: yellow;
+			padding: 1px;
+		}
+		td, th {
+			background-color: white
+			
+		}
+
+		#skillsexplainedpadding{
+			margin-top:40px;
+			display: block;
+		}
+
+		.specialskills{
+			line-height: .3;
+		}
+		/* the pound sign signals an ID*/
+		#coreheader{
+			color: blue;
+		}
+/* RESUME PAGE*/
+
+
+		
+
+/* the period signals a class*/
+	
+
+		/*
+	html {
+		background-image: url(https://images.unsplash.com/photo-1529567186287-3e17bdefa342?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60);
+		background-size: cover;
+		background-repeat: no-repeat;
+
+	}
+*/
+	
